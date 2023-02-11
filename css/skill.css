@@ -1,0 +1,507 @@
+/*skills*/
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.skill-box-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-box-sec {
+  display: flex;
+  margin-top: 120px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.skill-itema {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  line-height: 100px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(204, 92, 1);
+  position: relative;
+  animation: myg 10s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 10s linear 2s infinite alternate;
+}
+
+
+.skill-itemb {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(248, 130, 2);
+  margin-left: 5px;
+  position: relative;
+  animation: myf 9s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myf 9s linear 2s infinite alternate;
+}
+
+.skill-itemc {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 90px;
+  line-height: 90px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(228, 140, 45);
+  margin-left: 5px;
+  margin-top: 10px;
+  position: relative;
+  animation: myg 6s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 6s linear 2s infinite alternate;
+}
+
+
+.skill-itemd {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 90px;
+  line-height: 90px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(154, 81, 3);
+  margin-left: 5px;
+  margin-top: 20px;
+  position: relative;
+  animation: myf 10s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myf 10s linear 2s infinite alternate;
+}
+
+
+.skill-iteme {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(161, 114, 65);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 12s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 12s linear 2s infinite alternate;
+}
+
+.skill-itemf {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 100px;
+  line-height: 100px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(252, 131, 2);
+  margin-left: 5px;
+  position: relative;
+  animation: myf 8s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myf 8s linear 2s infinite alternate;
+}
+
+@keyframes myf {
+  0% {
+    background: rgb(161, 114, 65);
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background: rgb(239, 182, 132);
+    margin-top: 5%;
+  }
+
+  50% {
+    background: rgb(225, 173, 113);
+    margin-top: 0px;
+  }
+
+  75% {
+    background: rgb(184, 92, 6);
+    margin-top: 5%;
+  }
+
+  100% {
+    background: rgb(236, 116, 4);
+    margin-top: 0px;
+  }
+}
+
+@-webkit-keyframes myf {
+  0% {
+    background: rgb(161, 114, 65);
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background: rgb(239, 182, 132);
+    margin-top: 5%;
+  }
+
+  50% {
+    background: rgb(225, 173, 113);
+    margin-top: 0px;
+  }
+
+  75% {
+    background: rgb(184, 92, 6);
+    margin-top: 5%;
+  }
+
+  100% {
+    background: rgb(236, 116, 4);
+    margin-top: 0px;
+  }
+}
+
+
+.skill-itemg {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(112, 62, 8);
+  margin-left: 5px;
+  /* margin-top: 80px; */
+  position: relative;
+  animation: myg 9s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 9s linear 2s infinite alternate;
+}
+
+@keyframes myg {
+  0% {
+    background: rgb(177, 100, 18);
+    left: 0px;
+    top: 0px;
+  }
+
+  50% {
+    background: rgb(235, 123, 4);
+    margin-top: 5%;
+  }
+
+  75% {
+    background: rgb(238, 144, 43);
+    margin-top: 0px;
+  }
+
+  100% {
+    background: rgb(158, 82, 1);
+    margin-top: 5%;
+  }
+
+}
+
+@-webkit-keyframes myg {
+  0% {
+    background: rgb(177, 100, 18);
+    left: 0px;
+    top: 0px;
+  }
+
+  50% {
+    background: rgb(235, 123, 4);
+    margin-top: 5%;
+  }
+
+  75% {
+    background: rgb(238, 144, 43);
+    margin-top: 0px;
+  }
+
+  100% {
+    background: rgb(158, 82, 1);
+    margin-top: 5%;
+  }
+
+}
+
+.skill-itemh {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(219, 127, 29);
+  margin-left: 5px;
+  animation: myg 4s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 4s linear 2s infinite alternate;
+}
+
+
+.skill-itemi {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(228, 125, 14);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 9s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 9s linear 2s infinite alternate;
+}
+
+.skill-itemj {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(173, 122, 68);
+  margin-left: 5px;
+  position: relative;
+  animation: myf 4s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myf 4s linear 2s infinite alternate;
+}
+
+
+.skill-itemk {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 70px;
+  line-height: 70px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(141, 74, 4);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 5s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 5s linear 2s infinite alternate;
+}
+
+
+.skill-iteml {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(251, 131, 3);
+  margin-left: 5px;
+  position: relative;
+  animation: myf 9s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myf 9s linear 2s infinite alternate;
+}
+
+
+.skill-itemm {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(238, 178, 113);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 6s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 6s linear 2s infinite alternate;
+}
+
+.skill-itemn {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(224, 143, 57);
+  margin-left: 5px;
+  position: relative;
+  animation: myf 9s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myf 9s linear 2s infinite alternate;
+}
+
+
+.skill-itemo {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(230, 122, 7);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 10s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 10s linear 2s infinite alternate;
+}
+
+.skill-itema:hover,
+.skill-itemb:hover,
+.skill-itemc:hover,
+.skill-itemd:hover,
+.skill-iteme:hover,
+.skill-itemf:hover,
+.skill-itemg:hover,
+.skill-itemh:hover,
+.skill-itemi:hover,
+.skill-itemj:hover,
+.skill-itemk:hover,
+.skill-iteml:hover,
+.skill-itemm:hover,
+.skill-itemn:hover,
+.skill-itemo:hover {
+  animation-play-state: paused;
+}
+
+
+@media(max-width: 400px) {
+  .contact-box {
+    width: 360px;
+    margin-left: 50%;
+    left: -180px;
+  }
+
+  .contact-item .item {
+    padding-left: 25px;
+  }
+
+  .skill-itema {
+    width: 50px;
+    height: 33px;
+    line-height: 33px;
+  }
+
+  .skill-itemb {
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .skill-itemc {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+
+  }
+
+  .skill-itemd {
+    width: 48px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .skill-iteme {
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .skill-itemf {
+    width: 75px;
+    height: 33px;
+    line-height: 33px;
+
+  }
+
+  .skill-itemg {
+    width: 58px;
+    height: 20px;
+    line-height: 20px;
+
+  }
+
+  .skill-itemh {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .skill-itemi {
+    width: 90px;
+    height: 33px;
+    line-height: 33px;
+  }
+
+  .skill-itemj {
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .skill-itemk {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .skill-iteml {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .skill-itemm {
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .skill-itemn {
+    width: 75px;
+    height: 33px;
+    line-height: 33px;
+  }
+
+  .skill-itemo {
+    width: 58px;
+    height: 16px;
+    line-height: 16px;
+  }
+
+  .skill-box-sec {
+    margin-top: 90px;
+  }
+
+  body {
+    height: 1600px;
+  }
+}

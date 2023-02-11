@@ -1,0 +1,45 @@
+/*
+  About me
+*/
+
+.about-me-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.about-me-header {
+  text-align: center;
+  color: chocolate;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s forwards steps(50, end)
+}
+@keyframes typing {
+  from {width: 0}
+  to {width: 100%}
+ }
+
+.about-me-content {
+  margin-top: 80px;
+  background-color: rgb(216, 113, 44);
+  color: #595353;
+  width: 50%;
+  padding: 40px;
+  border-radius: 30px;
+  animation: GFG 5s infinite linear;
+}
+
+@keyframes GFG {
+  0% {
+    transform: rotate(0deg) translateY(-10%) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(-10%) rotate(-360deg);
+  }
+}
+
+.about-me-content:hover {
+  animation-play-state: paused;
+}
