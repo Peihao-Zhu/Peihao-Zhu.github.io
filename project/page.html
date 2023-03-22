@@ -1,87 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../css/style.css">
-</head>
+  <body>
+    <div class="top-navigation">
+      <a class="navigation-item" href="../">Home</a>
+      <a class="navigation-item" id="active">Project</a>
+      <a class="navigation-item" href="../contact/page">Contact</a>
+      <a class="navigation-item" href="../about/page">About</a>
+    </div>
+    <header>
+      <h1 class="h1">Peihao's Website</h1>
+    </header>
+    <section class="section timeline-list">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="book-outline"></ion-icon>
+        </div>
 
-<body>
-	<div class="top-navigation">
-	  <a class="navigation-item" href="../">Home</a>
-	  <a class="navigation-item" id="active">Project</a>
-	  <a class="navigation-item" href="../contact/page">Contact</a>
-	  <a class="navigation-item" href="../about/page">About</a>
-	</div>
-	<header>
-		<h1 class="h1">Peihao's Website</h1>
-	</header>
-	<section class="section timeline-list">
-		 <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-			<h3 class="h3">Project</h3>
-		</div>
-		<ol class="timeline-list">
-			<li class="timeline-item">
-				<h4 class="h4">Forecasting, Amazon</h4>
-				<ul class="timeline-item-ul">
-					<li>
-						Designed and implemented Spark-shell script on AWS EMR to fetch forecast datasets from S3 or AWS Glue.
-					</li>
-					<li>
-						Implemented Spark applicatios for converting forecast and demand datasets as part of ETL process. Developed Scala application to invoked third-party APIs to achieve forecasting accuracy comparison of ML models.
-					</li>
-					<li>
-						Developed Airflow data pipeline by Python in AWS MWAA to orchestrate all tasks, saving developers around 20 mins on preparing trigger configs to run forecast backtest for products from Amazon Go, Whole Foods Businesses.
-					</li>
-				</ul>
-			</li>
-			<li class="timeline-item">
-				<h4 class="h4">Platform Infra, Kuaishou Technology</h4>
-				<ul class="timeline-item-ul">
-					<li>
-						Implemented the feature for synchronizing messages from TEAM system to the Case system using Kafka, and implemented distributed locks with Redis to ensure correct sending of test reports in multi-instance services.
-					</li>
-					<li>
-						Developed an in-app notification center, including the ability to publish, read and update from both the admin and user side using Spring Boot(Java).
-					</li>
-					<li>
-						Refactored the Skywalking UI using Elastic Search, working with three other engineers to enable the APM system displayed richer metrics. Over 500 services were monitored and alarmed by this system.
-					</li>
-				</ul>
-			</li>
-			<li class="timeline-item">
-				<h4 class="h4">Quality Assurance, Hikvision</h4>
-				<ul class="timeline-item-ul">
-					<li>
-						Developed the AP system using Python with Django framework.
-					</li>
-					<li>
-						Optimized slow query interfaces, such as risk ranking through the use of MySQL index and applied MongoDB to reduce average response time by 95%.
-					</li>
-					<li>
-						Refactored the API to RESTful style and configured Swagger to collaborate more efficiently with front-end colleagues.
-					</li>
-				</ul>
-			</li>
-			<li class="timeline-item">
-				<h4 class="h4"><a href="https://github.com/Peihao-Zhu/mini-racket">Mini-Racket (CS 5400)</a></h4>
-				<ul class="timeline-item-ul">
-					<li>
-						Built a mini-racket REPL program by using Golang to support syntax including arithmetic & boolean expressions, conditionals(if-then-else) and variable & function definitions.
-					</li>
-					<li>
-						The program was implemented by using Golang and consisted of a Tokenizer(using regex to find different tokens), a Parser (constructing abstract syntax tree) and a Evaluator.
-					</li>
-				</ul>
-			</li>
-		</ol>
-	</section>
-</body>
-
+        <h3 class="h3">Project</h3>
+      </div>
+      <ol class="timeline-list">
+        <li class="timeline-item">
+          <h4 class="h4">Forecasting, Amazon</h4>
+          <ul class="timeline-item-ul">
+            <li>
+              Designed and implemented Spark-shell script on AWS EMR to fetch
+              forecast datasets from S3 or AWS Glue.
+            </li>
+            <li>
+              Implemented Spark applicatios for converting forecast and demand
+              datasets as part of ETL process. Developed Scala application to
+              invoked third-party APIs to achieve forecasting accuracy
+              comparison of ML models.
+            </li>
+            <li>
+              Developed Airflow data pipeline by Python in AWS MWAA to
+              orchestrate all tasks, saving developers around 20 mins on
+              preparing trigger configs to run forecast backtest for products
+              from Amazon Go, Whole Foods Businesses.
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4">Platform Infra, Kuaishou Technology</h4>
+          <ul class="timeline-item-ul">
+            <li>
+              Implemented the feature for synchronizing messages from TEAM
+              system to the Case system using Kafka, and implemented distributed
+              locks with Redis to ensure correct sending of test reports in
+              multi-instance services.
+            </li>
+            <li>
+              Developed an in-app notification center, including the ability to
+              publish, read and update from both the admin and user side using
+              Spring Boot(Java).
+            </li>
+            <li>
+              Refactored the Skywalking UI using Elastic Search, working with
+              three other engineers to enable the APM system displayed richer
+              metrics. Over 500 services were monitored and alarmed by this
+              system.
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4">Quality Assurance, Hikvision</h4>
+          <ul class="timeline-item-ul">
+            <li>
+              Developed the AP system using Python with Django framework.
+            </li>
+            <li>
+              Optimized slow query interfaces, such as risk ranking through the
+              use of MySQL index and applied MongoDB to reduce average response
+              time by 95%.
+            </li>
+            <li>
+              Refactored the API to RESTful style and configured Swagger to
+              collaborate more efficiently with front-end colleagues.
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4">
+            <a href="https://github.com/Peihao-Zhu/mini-racket">
+              Mini-Racket (CS 5400 Principal of Programming Language)
+            </a>
+          </h4>
+          <ul class="timeline-item-ul">
+            <li>
+              Built a mini-racket REPL program by using Golang to support syntax
+              including arithmetic & boolean expressions,
+              conditionals(if-then-else) and variable & function definitions.
+            </li>
+            <li>
+              The program was implemented by using Golang and consisted of a
+              Tokenizer(using regex to find different tokens), a Parser
+              (constructing abstract syntax tree) and a Evaluator.
+            </li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4">
+            <a href="https://github.com/Peihao-Zhu/Peihao-Zhu-Project2">
+              Wordl Game (CS 5610 Web Development)
+            </a>
+          </h4>
+          <a
+            class="wordleLink"
+            href="https://peihao-zhu-project2-jbqz.onrender.com/"
+          >
+            play game
+            <img class="game-icon" src="../img/gameIcon.png" alt="game icon" />
+          </a>
+          <ul class="timeline-item-ul">
+            <li>
+              Developed a wordle game with React, Javascript to let user type a
+              word and verify with the expected word.
+            </li>
+            <li>
+              Designed the keyboard on screen, captured the event of each press
+              with event bubbling and maintained global variables with
+              useContext Hook
+            </li>
+            <li>
+              Applied React Route to define URL for each components and passed
+              different props with normal or hard game.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </body>
 </html>
