@@ -21,7 +21,6 @@
   grid-template-columns: 5% 95%;
   row-gap: 5px;
   padding: 5px;
-
 }
 
 .contact-item .item {
@@ -34,16 +33,16 @@
 
 .item-type {
   color: hsl(0, 0%, 50%);
-  grid-area: 1/ 2/ span 1/ span 3;
+  grid-area: 1/ 2 / span 1 / span 3;
 }
 
 .item-detail {
   color: blanchedalmond;
-  grid-area: 2/ 2/ span 1/ span 3;
+  grid-area: 2/ 2 / span 1 / span 3;
 }
 
 .img-item {
-  grid-area: 1/ 1/ span 2/ span 1;
+  grid-area: 1/ 1 / span 2 / span 1;
   width: 30px;
   height: 30px;
 }
