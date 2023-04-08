@@ -367,6 +367,54 @@
   -webkit-animation: myg 10s linear 2s infinite alternate;
 }
 
+.skill-itemp {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  height: 90px;
+  line-height: 90px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(230, 122, 7);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 4s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 4s linear 2s infinite alternate;
+}
+
+.skill-item20 {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(230, 122, 7);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 4s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 4s linear 2s infinite alternate;
+}
+
+.skill-itemq {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 80px;
+  line-height: 80px;
+  color: #585656;
+  border-radius: 10px;
+  background: rgb(230, 122, 7);
+  margin-left: 5px;
+  position: relative;
+  animation: myg 8s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myg 8s linear 2s infinite alternate;
+}
+
 .skill-itema:hover,
 .skill-itemb:hover,
 .skill-itemc:hover,
